@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-brand img {
+  width: 5vh;
+  height: 5vh;
+}
+.nav-item {
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: bridgersbrush;
+  src: url(bridgersbrush.ttf);
+}
+#about h1 {
+  font-family: bridgersbrush, arial, sans-serif;
+  text-align: center;
+  font-size: 10vw;
+}
+#about p {
+  font-size: 1.5vw;
+  font-weight: bold;
+  line-height: 2.5vw;
+}
+#group-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#galery_carousel {
+  height: 40vw;
+}
+#galery_carousel img {
+  height: 40vw;
+}
+#tours {
+  background-color: grey;
+  margin-top: 10px;
+  text-align: center;
+}
+#tours h2 {
+  font-family: bridgersbrush, arial, sans-serif;
+  color: white;
+  font-size: 10vw;
+}
+.tickets-link img:hover {
+  filter: brightness(40%);
+}

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="description" content="Pearl Jam Web Page" />
+    <meta name="author" content="Fábio Ceriaco" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="icon" href="img/logo.jpg" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--External Styles-->
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Pearl Jam</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <!--HEADER AND NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img src="img/navbrand.png" alt="PearlJam_Brand"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Galery</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Vinyls</a></li>
+                    <li><a class="dropdown-item" href="#">Albums</a></li>
+                    <li><a class="dropdown-item" href="#">Merchandise</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Contacts</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-dark" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!--ABOUT-->
+      <section class="container-fluid" id="about">
+        <div class="row">
+          <div class="col-6">
+            <h1>Pearl Jam</h1>
+            <p>
+              Pearl Jam, American band that helped popularize grunge music in
+              the early 1990s and continues to be a respected alternative rock
+              group in the 21st century. The original members were lead vocalist
+              Eddie Vedder (original name Edward Louis Severson III; b. December
+              23, 1964, Chicago, Illinois, U.S.), rhythm guitarist Stone Gossard
+              (b. July 20, 1966, Seattle, Washington), bassist Jeff Ament (b.
+              March 10, 1963, Havre, Montana), lead guitarist Mike McCready (b.
+              April 5, 1966, Pensacola, Florida), and drummer Dave Krusen (b.
+              March 10, 1966, Tacoma, Washington). Later members have included
+              Jack Irons (b. July 18, 1962, Los Angeles, California), Dave
+              Abbruzzese (b. May 17, 1968, Stamford, Connecticut), and Matt
+              Cameron (b. November 28, 1962, San Diego, California).
+            </p>
+          </div>
+          <div class="col-6" id="group-image">
+            <img
+              class="img-fluid"
+              src="img/pearljam-group1.jpg"
+              alt="Pearl Jam group"
+            />
+          </div>
+        </div>
+      </section>
+      <hr />
+      <!--TOUR CAROUSEL-->
+      <section class="container" id="galery">
+        <!-- Carousel -->
+        <div
+          id="galery_carousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#galery_carousel"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#galery_carousel"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#galery_carousel"
+              data-bs-slide-to="2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#galery_carousel"
+              data-bs-slide-to="3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#galery_carousel"
+              data-bs-slide-to="4"
+            ></button>
+          </div>
+
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/pearljam_galery_1.jpg"
+                alt="Pearl Jam Galery 1"
+                class="d-block"
+                style="width: 100%"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/pearljam_galery_2.jpg"
+                alt="Pearl Jam Galery 2"
+                class="d-block"
+                style="width: 100%"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/pearljam_galery_3.jpg"
+                alt="Pearl Jam Galery 3"
+                class="d-block"
+                style="width: 100%"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/pearljam_galery_4.jpg"
+                alt="Pearl Jam Galery 4"
+                class="d-block"
+                style="width: 100%"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/pearljam_galery_5.jpg"
+                alt="Pearl Jam Galery 5"
+                class="d-block"
+                style="width: 100%"
+              />
+            </div>
+          </div>
+
+          <!-- Left and right controls/icons -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#galery_carousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#galery_carousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </section>
+      <section class="container-fluid" id="tours">
+        <div class="row">
+          <h2>2024 Tour</h2>
+          <div class="col">
+            <a
+              href="https://www.viagogo.pt/Bilhetes-Concertos/Alternativa-e-Indie/Pearl-Jam-Bilhetes?AffiliateID=49&adposition=&PCID=PSPTGOOCONPEARLFC740C1576&AdID=684549742051&MetroRegionID=&psc=%2c&ps=%2c&ps_p=0&ps_c=20095307230&ps_ag=147225877165&ps_tg=kwd-354607833738&ps_ad=684549742051&ps_adp=%2c&ps_fi=%2c&ps_li=%2c&ps_lp=20870&ps_n=g&ps_d=c&ps_ex=&pscpag=&gad_source=1&gclid=CjwKCAjwtNi0BhA1EiwAWZaANImTlZAgve5RtO6x5C2EOVr3MPdP8eGOsTRbXngX1AOY03lTzgwK8hoCv8wQAvD_BwE"
+              class="tickets-link"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Buy your Tickets"
+              ><img
+                class="img-thumbnail"
+                src="img/pearl-jam-tour-auckland.jpg"
+                alt="Pearl Jam Auckland Concert"
+            /></a>
+          </div>
+          <div class="col">
+            <a
+              href="https://www.viagogo.pt/Bilhetes-Concertos/Alternativa-e-Indie/Pearl-Jam-Bilhetes?AffiliateID=49&adposition=&PCID=PSPTGOOCONPEARLFC740C1576&AdID=684549742051&MetroRegionID=&psc=%2c&ps=%2c&ps_p=0&ps_c=20095307230&ps_ag=147225877165&ps_tg=kwd-354607833738&ps_ad=684549742051&ps_adp=%2c&ps_fi=%2c&ps_li=%2c&ps_lp=20870&ps_n=g&ps_d=c&ps_ex=&pscpag=&gad_source=1&gclid=CjwKCAjwtNi0BhA1EiwAWZaANImTlZAgve5RtO6x5C2EOVr3MPdP8eGOsTRbXngX1AOY03lTzgwK8hoCv8wQAvD_BwE"
+              class="tickets-link"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Buy your Tickets"
+              ><img
+                class="img-thumbnail"
+                src="img/pearl-jam-tour-melbourne.jpg"
+                alt="Pearl Jam Melbourne Concert"
+            /></a>
+          </div>
+          <div class="col">
+            <a
+              href="https://www.viagogo.pt/Bilhetes-Concertos/Alternativa-e-Indie/Pearl-Jam-Bilhetes?AffiliateID=49&adposition=&PCID=PSPTGOOCONPEARLFC740C1576&AdID=684549742051&MetroRegionID=&psc=%2c&ps=%2c&ps_p=0&ps_c=20095307230&ps_ag=147225877165&ps_tg=kwd-354607833738&ps_ad=684549742051&ps_adp=%2c&ps_fi=%2c&ps_li=%2c&ps_lp=20870&ps_n=g&ps_d=c&ps_ex=&pscpag=&gad_source=1&gclid=CjwKCAjwtNi0BhA1EiwAWZaANImTlZAgve5RtO6x5C2EOVr3MPdP8eGOsTRbXngX1AOY03lTzgwK8hoCv8wQAvD_BwE"
+              class="tickets-link"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              title="Buy your Tickets"
+              ><img
+                class="img-thumbnail"
+                src="img/pearl-jam-tour-sydney.jpg"
+                alt="Pearl Jam Sydney Concert"
+            /></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
