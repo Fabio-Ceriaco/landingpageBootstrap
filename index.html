@@ -101,7 +101,7 @@
       <!--ABOUT-->
       <section class="container-fluid" id="about">
         <div class="row">
-          <div class="col-6">
+          <div class="col-sm-6">
             <h1>Pearl Jam</h1>
             <p>
               Pearl Jam, American band that helped popularize grunge music in
@@ -118,7 +118,7 @@
               Cameron (b. November 28, 1962, San Diego, California).
             </p>
           </div>
-          <div class="col-6" id="group-image">
+          <div class="col-sm-6" id="group-image">
             <img
               class="img-fluid"
               src="img/pearljam-group1.jpg"
@@ -399,25 +399,46 @@
           <p>Introduce yourself to Pearl Jam!</p>
         </div>
         <div class="row">
-          <div class="col-6 contact-info">
-            <p><i class="fas fa-location-pin"></i> Abingdon, Oxfordshire</p>
-            <p><i class="fas fa-phone"></i> +44 254 268 684</p>
-            <p><i class="fas fa-envelope"></i> pearlJam@gmail.com</p>
+          <div class="col-sm-6 contact-info">
+            <p><i class="fas fa-location-pin"></i> Seattle, Washington</p>
+            <p><i class="fas fa-phone"></i> +206 254 268 684</p>
+            <p>
+              <i class="fas fa-envelope"></i
+              ><a href="mailto:pearlJam@gmail.com">pearlJam@gmail.com</a>
+            </p>
           </div>
-          <div class="col-6 msgform">
+          <div class="col-sm-6 msgform">
             <form action="#" method="post">
               <input id="name" name="name " type="text" placeholder="Name" />
               <input id="email" name="email" type="email" placeholder="Email" />
               <textarea
-                name="mensagem"
+                name="message"
                 id="textmsg"
-                placeholder="Escreve aqui a tua mensagem"
+                placeholder="Write your message here"
               ></textarea>
-              <input id="enviar" type="submit" value="Enviar" />
+              <input class="btn-primary send" type="submit" value="Send" />
             </form>
           </div>
         </div>
       </section>
+      <footer class="container-fluid">
+        <div class="row social">
+          <div class="col-12">
+            <a href="https://www.instagram.com/pearljam/" target="_blank"
+              ><i class="fa fa-instagram"></i
+            ></a>
+            <a href="https://x.com/pearljam" target="_blank"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a href="https://www.facebook.com/PearlJam/" target="_blank"
+              ><i class="fa fa-facebook" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12"><p id="author">Powered by Fábio Ceriaco</p></div>
+        </div>
+      </footer>
     </main>
 
     <script
